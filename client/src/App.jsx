@@ -21,7 +21,7 @@ import AddAppointment from './components/AddAppointment'
       <div className="ui container tm30">
         <Router>
             <Switch>
-              <Route exact path="/" component={Homepage}/>
+              <Route exact path="https://tranquil-mountain-56491.herokuapp.com/" component={Homepage}/>
               <Route exact path="/massagedetails" component={ThanksForBooking}/>
               <Route exact path="/dashboard" component={Dashboard}/>
               <Route exact path="/dashboard/profile/:id" component={ClientProfile}/>
